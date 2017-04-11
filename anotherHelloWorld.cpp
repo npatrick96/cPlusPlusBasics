@@ -46,6 +46,21 @@ int main(){
   cout << "float division - 4/5 " << (float) 4/5 << endl;
   
   // NEXT ::: IF STATEMENTS
+  int age  = 70;
+  int ageAtLastExam = 16;
+  bool isNotIntoxicated = true;
+  
+  if ((age >= 1) && (age < 16)){
+    cout << "You can not drive." << endl;
+  }else if (!isNotIntoxicated){
+    cout << "You can not drive." << endl;
+  }else if (age >=80 && ((age > 100) || age - ageAtLastExam > 5)){
+    cout << "You can not drive." << endl;
+  }else{
+    cout << "You can drive." << endl;
+  }
+  
+  // NEXT ::: SWITCH STATEMENTS
   // https://youtu.be/Rub-JsjMhWY?t=10m13s
   
   return 0;
