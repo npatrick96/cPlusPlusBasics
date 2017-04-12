@@ -61,7 +61,35 @@ int main(){
   }
   
   // NEXT ::: SWITCH STATEMENTS
-  // https://youtu.be/Rub-JsjMhWY?t=10m13s
+  int greetingOption = 1;
+  
+  switch (greetingOption) {
+    case 1:
+      cout << "bonjour" << endl;
+      break;
+    case 2:
+      cout << "hola" << '\n';
+      break;
+    case 3:
+      cout << "hallo" << endl;
+      break;
+    default :
+      cout << "hello" << endl;
+    
+    
+  }
+  
+  // NEXT :: TERNARY OPERATORS
+  int x  = 5;
+  int y = 2;
+  int largestNum = (x>y) ? x : y;
+  
+  cout << "the largestNum is : ";
+  cout << largestNum << endl;
+  
+  // NEXT :: ARRAYS 
+  
+  // https://youtu.be/Rub-JsjMhWY?t=13m52s
   
   return 0;
 }
